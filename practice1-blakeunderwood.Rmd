@@ -24,9 +24,13 @@ library(tidyverse)
 ## Including Plots
 
 You can also embed plots, for example:
+# Question 1: Generate the graph of LifExp vs. gdpPercap for US
+```{r}
+df
+ggplot(df, aes(x=lifeExp, y = gdpPercap)) + geom_point()
+df2 = df %>% mutate(lifeExp = replace(lifeExp, lifeExp == 999999, 69.96))
+ggplot(df2, aes(x=lifeExp, y = gdpPercap)) + geom_point()
 
-```{r pressure, echo=FALSE}
-plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
