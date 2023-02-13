@@ -24,7 +24,7 @@ library(tidyverse)
 ## Including Plots
 
 You can also embed plots, for example:
-# Question 1: Generate the graph of LifExp vs. gdpPercap for US, Canada, Aussie's
+# Question 2: Generate the graph of LifExp vs. gdpPercap for US, Canada, Aussie's
 ```{r}
 df1 = df1 %>% filter(country == "Canada")
 df2 = df2 %>% filter(country == "United States")
