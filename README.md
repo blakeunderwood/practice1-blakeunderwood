@@ -3,7 +3,7 @@
 
 
 Name?
-Blake, Skyler, Promit
+Blake, Skyler, Pramit
 
 What do you tell people about your field of study at a party?
 I'm changing the world by creating incredible artificial intelligence applications that build robust systems that incorporate big data and machine learning 
