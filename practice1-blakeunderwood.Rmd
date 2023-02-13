@@ -46,5 +46,17 @@ ggplot(df3, aes(x=lifeExp, y = gdpPercap)) + geom_point()
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+#Question 3 Write a paragraph (~200 words) describing an example of what you consider data science. Write your paragraph in R Markdown. Include at least 
+    a. one link to a chart or an image and 
+    b. at least one itemized or enumerated list.
+    
 
+
+*Things I believe that are considered data science can vary heavily on what we are talking about but I believe something popular that is considered data science would the use of popular AI programs that have been popping up in recent history with the current rise of ChatGPT in the past couple of weeks. Developed by OpenAI, ChatGPT uses natural language processing (NLP), an AI technology that deals with understanding, analyzing, and generating human-like language. The large language model (LLM) was trained using a combination of two major inputs. A massive volume of sample text pulled from web pages and program code before the end of 2021. And Conversations provided by real humans, who demonstrated the desired responses to provided prompts, then ranked outputs from the model based on the quality of the response*
+  
+## https://th.bing.com/th/id/R.dee26cc058e9584cb53bc1ccef4ff8e0?rik=uC3l2webq8d%2fEQ&pid=ImgRaw&r=0 ##
+
+df <- data.frame(SkylerFavoriteNumbers <- c(1, 2, 3), BlakeFavoriteNumbers <- c(10, 20, 30), PramitFavoriteNumbers <- c(11, 22, 33))
+
+print(df)
 
