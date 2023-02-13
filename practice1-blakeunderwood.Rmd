@@ -1,5 +1,6 @@
 ---
 title: "practice1-blakeunderwood"
+Author: Pramit
 output: html_document
 date: "2023-02-13"
 ---
@@ -29,3 +30,6 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
