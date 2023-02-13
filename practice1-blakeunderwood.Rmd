@@ -24,12 +24,15 @@ library(tidyverse)
 ## Including Plots
 
 You can also embed plots, for example:
-# Question 1: Generate the graph of LifExp vs. gdpPercap for US
+# Question 1: Generate the graph of LifExp vs. gdpPercap for US, Canada, Aussie's
 ```{r}
-df
-ggplot(df, aes(x=lifeExp, y = gdpPercap)) + geom_point()
-df2 = df %>% mutate(lifeExp = replace(lifeExp, lifeExp == 999999, 69.96))
+df1 = df1 %>% filter(country == "Canada")
+df2 = df2 %>% filter(country == "United States")
+df3 = df3 %>% filter(country == "Australia")
+df1 = df1 %>% mutate(lifeExp = replace(lifeExp, lifeExp == 999999, 69.96))
+ggplot(df1, aes(x=lifeExp, y = gdpPercap)) + geom_point()
 ggplot(df2, aes(x=lifeExp, y = gdpPercap)) + geom_point()
+ggplot(df3, aes(x=lifeExp, y = gdpPercap)) + geom_point()
 
 ```
 
